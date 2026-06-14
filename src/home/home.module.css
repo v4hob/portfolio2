@@ -1,0 +1,398 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_img {
+    box-shadow: 1px 2px 8px 5px white;
+}
+
+.hero_text {
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    width: 400px;
+}
+
+.hero_text h5 {
+    font-size: 30px;
+    color: rgb(128, 16, 232);
+}
+
+.hero_text h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.hero_text h2 {
+    font-size: 40px;
+    color: rgb(111, 57, 220);
+    padding-bottom: 5px;
+}
+
+.hero_text h2 span {
+    color: rgb(56, 126, 237);
+}
+
+.hero_text p {
+    color: rgb(199, 197, 197);
+}
+
+.work_btn {
+    color: white;
+    width: 165px;
+    height: 45px;
+    background: linear-gradient(to right, rgb(37, 131, 239),
+            rgb(83, 24, 233), rgb(187, 32, 239));
+    border-radius: 12px;
+    border-style: none;
+}
+
+.contact_btn {
+    color: white;
+    width: 165px;
+    height: 45px;
+    background: linear-gradient(to right, rgb(37, 131, 239),
+            rgb(83, 24, 233), rgb(187, 32, 239));
+    border-radius: 12px;
+    border-style: none;
+}
+
+.work_btn:hover {
+    background: fixed;
+    border: 2px solid white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.contact_btn:hover {
+     background: fixed;
+    border: 2px solid white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.hero_btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.hero_btn i {
+    background: fixed;
+}
+
+.hero_icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 27px;
+    color: rgb(217, 215, 215);
+}
+
+.git {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.telegram {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.telegram:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    color: rgb(187, 32, 239);
+    border: 2px solid rgb(128, 16, 232);
+}
+
+.git:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    color: rgb(187, 32, 239);
+    border: 2px solid rgb(128, 16, 232);
+}
+
+.instagram:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    color: rgb(187, 32, 239);
+    border: 2px solid rgb(128, 16, 232);
+}
+
+.twitter:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    color: rgb(187, 32, 239);
+    border: 2px solid rgb(128, 16, 232);
+}
+
+.section1 {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 160px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 20px 10px rgb(16, 2, 56);
+}
+
+.section1 p {
+    letter-spacing: 2px;
+}
+
+
+
+.box1 {
+    color: white;
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    border-right: 2px solid gray;
+}
+
+.complet {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(83, 24, 233), rgb(187, 32, 239));
+
+}
+
+.complet i {
+    font-size: 30px;
+    background: fixed;
+}
+
+.box2 {
+    color: white;
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    border-right: 2px solid gray;
+}
+
+.exp {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(56, 126, 237), rgb(76, 76, 240));
+}
+
+.exp i {
+    font-size: 30px;
+    background: fixed;
+}
+
+
+.box3 {
+    color: white;
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    border-right: 2px solid gray;
+}
+
+.client {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(176, 13, 209), rgb(82, 4, 198));
+}
+
+.client i {
+    font-size: 30px;
+    background: fixed;
+}
+
+
+.box4 {
+    color: white;
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.support {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(7, 189, 7), rgb(2, 171, 78));
+}
+
+.support i {
+    font-size: 30px;
+    background: fixed;
+}
+
+.box1:hover {
+    transform: scale(1.1);
+}
+
+.box2:hover {
+    transform: scale(1.1);
+}
+
+.box3:hover {
+    transform: scale(1.1);
+}
+
+.box4:hover {
+    transform: scale(1.1);
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_me{
+    width: 330px;
+    color: white;
+}
+
+.about_me h4 {
+    font-size: 20px;
+    color: rgb(128, 16, 232);
+    margin-bottom: 20px;
+}
+
+.about_me h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.more{
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to right, rgb(37, 131, 239),
+    rgb(83, 24, 233), rgb(187, 32, 239));
+    border: none;
+    margin-top: 20px;
+}
+
+.more:hover{
+    background: fixed;
+    border: 2px solid white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.my_skills{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 150px;
+}
+
+
+
+.my_skills img {
+    width: 60px;
+}
+
+.react, .js, .github, .tailwind, .html, .css{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+}
+
+footer{
+    margin-top: 100px;
+    box-shadow: 10px 8px 20px 10px rgb(72, 28, 192);
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+
+.footer_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer_text1{
+    color: gray;
+}
+
+.footer_text1 h1{
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+
+
+.footer_text2 p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+    text-decoration:underline;
+    
+}
+
+.footer_text3 h5{
+     color: gray;
+     margin-bottom: 20px;
+     font-size: 20px;
+}
+
+.h2{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
